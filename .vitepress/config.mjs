@@ -10,9 +10,13 @@ export default defineConfig({
 
     sidebar: [
       { text: "Introducción", link: "/guide/introduction" },
-      { text: "Variables y Tipos de Datos", link: "/guide/variables" },
+      { text: "Variables y Constantes", link: "/guide/variables" },
+      { text: "Tipos de Datos", link: "/guide/tipo-datos" },
       { text: "Operadores y Funciones Matemáticas", link: "/guide/operadores" },
-      { text: "Estructuras de Control de Flujo", link: "/guide/estructuras-control" },
+      {
+        text: "Estructuras de Control de Flujo",
+        link: "/guide/estructuras-control",
+      },
       { text: "Arrays en JavaScript", link: "/guide/arrays" },
       { text: "Manejo de Cadenas de Texto", link: "/guide/cadenas" },
       { text: "Trabajando con Fechas y Horas", link: "/guide/fechas" },
