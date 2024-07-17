@@ -55,7 +55,10 @@ export default defineConfig({
       },
       {
         text: 'Manejo de datos y DOM',
-        items: [{ text: 'Strings', link: '/guide/data/strings' }],
+        items: [
+          { text: 'Strings', link: '/guide/data/strings' },
+          { text: 'Fecha y hora', link: '/guide/data/date' },
+        ],
       },
       // { text: 'Manejo de Cadenas de Texto', link: '/guide/cadenas' },
       // { text: 'Trabajando con Fechas y Horas', link: '/guide/fechas' },
