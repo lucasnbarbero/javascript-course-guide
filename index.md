@@ -3,13 +3,13 @@
 layout: home
 
 hero:
-  name: "Curso de JavaScript"
-  text: "Guía interactiva"
+  name: 'Curso de JavaScript'
+  text: 'Guía interactiva'
   tagline: Todo lo que necesitas saber sobre JavaScript
   actions:
     - theme: brand
       text: Introducción
-      link: /guide/introduction
+      link: /guide/intro
 
 features:
   - title: Introducción a JavaScript

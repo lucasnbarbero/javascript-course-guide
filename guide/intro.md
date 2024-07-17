@@ -1,9 +1,5 @@
 # Introducción a JavaScript
 
-Conozcamos un poco de JavaScript
-
-## ¿Qué es JavaScript?
-
 _JavaScript_ fue creado para "_dar vida a las páginas web_".
 
 Los programas en este lenguaje se llaman **_scripts_**. Se pueden escribir directamente en el HTML de una página we y ejecutarse automáticamente a medida que se carga la página.
@@ -54,7 +50,7 @@ Puedes agregar JavaScript a una página web mediante la etiqueta `<script>` dent
     <title>Ejemplo de Integración de JavaScript</title>
     <script>
       // Aquí puedes escribir tu código JavaScript
-      console.log("¡Hola, mundo desde JavaScript!");
+      console.log('¡Hola, mundo desde JavaScript!');
     </script>
   </head>
   <body>
@@ -81,7 +77,7 @@ JavaScript también puede manipular los estilos CSS de elementos HTML para cambi
     </style>
     <script>
       // JavaScript puede modificar los estilos CSS
-      document.getElementById("miParrafo").classList.add("resaltado");
+      document.getElementById('miParrafo').classList.add('resaltado');
     </script>
   </head>
   <body>
