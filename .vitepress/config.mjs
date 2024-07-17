@@ -12,7 +12,8 @@ export default defineConfig({
       { text: "Introducción", link: "/guide/introduction" },
       { text: "Variables y Constantes", link: "/guide/variables" },
       { text: "Tipos de Datos", link: "/guide/tipo-datos" },
-      { text: "Operadores y Funciones Matemáticas", link: "/guide/operadores" },
+      { text: "Operadores Matemáticos", link: "/guide/operadores" },
+      { text: "Funciones Matemáticas", link: "/guide/funciones-matematicas" },
       {
         text: "Estructuras de Control de Flujo",
         link: "/guide/estructuras-control",
