@@ -5,6 +5,7 @@ layout: home
 hero:
   name: 'Curso de JavaScript'
   text: 'Guía interactiva'
+  image: /assets/javascript-logo.svg
   tagline: Todo lo que necesitas saber sobre JavaScript
   actions:
     - theme: brand

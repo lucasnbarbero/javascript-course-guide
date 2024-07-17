@@ -4,7 +4,9 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   title: 'Curso de JavaScript',
   description: 'Guía interactiva para el curso de JavaScript',
+
   themeConfig: {
+    logo: '/assets/javascript-logo.svg',
     // https://vitepress.dev/reference/default-theme-config
     nav: [{ text: 'Inicio', link: '/' }],
 
@@ -72,5 +74,9 @@ export default defineConfig({
     ],
 
     socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }],
+
+    footer: {
+      message: 'Hecho por Lucas Barbero',
+    },
   },
 });
