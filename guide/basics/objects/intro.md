@@ -1,6 +1,6 @@
 # Objetos
 
-Como aprendimos en el capítulo [Tipos de datos](../basics/types.md), hay ocho tipos de datos en JavaScript. Siete de ellos se denominan “primitivos”, porque sus valores contienen solo un dato (sea un `string`, un número o lo que sea).
+Como aprendimos en el capítulo [Tipos de datos](../types.md), hay ocho tipos de datos en JavaScript. Siete de ellos se denominan “primitivos”, porque sus valores contienen solo un dato (sea un `string`, un número o lo que sea).
 
 En contraste, los objetos son usados para almacenar colecciones de varios datos y entidades más complejas asociados con un nombre clave. En JavaScript, los objetos penetran casi todos los aspectos del lenguaje. Por lo tanto, debemos comprenderlos primero antes de profundizar en cualquier otro lugar.
 

@@ -7,7 +7,7 @@ Hay ocho tipos de datos básicos en JavaScript.
 Podemos almacenar un valor de cualquier tipo dentro de una variable. Por ejemplo, una variable puede contener en un momento un string y luego almacenar un número:
 
 ```js
-let message = "hola";
+let message = 'hola';
 message = 123456;
 ```
 
@@ -43,7 +43,7 @@ alert(Infinity); // Infinity
 `NaN` representa un error de cálculo. Es el resultado de una operación matemática incorrecta o indefinida, por ejemplo:
 
 ```js
-alert("no es un número" / 2); // NaN, tal división es errónea
+alert('no es un número' / 2); // NaN, tal división es errónea
 ```
 
 ## BigInt
@@ -79,8 +79,8 @@ Como los números `BigInt` rara vez se necesitan, no los cubrimos aquí sino que
 Un _string_ en JavaScript es una cadena de caracteres y debe colocarse entre comillas.
 
 ```js
-let str = "Hola";
-let str2 = "Las comillas simples también están bien";
+let str = 'Hola';
+let str2 = 'Las comillas simples también están bien';
 let phrase = `se puede incrustar otro ${str}`;
 ```
 
@@ -95,7 +95,7 @@ Las comillas dobles y simples son comillas “sencillas” (es decir, funcionan 
 Los backticks son comillas de “funcionalidad extendida”. Nos permiten incrustar variables y expresiones en una cadena de caracteres encerrándolas en `${...}`, por ejemplo:
 
 ```js
-let name = "John";
+let name = 'John';
 
 // incrustar una variable
 alert(`Hola, ${name}!`); // Hola, John!
@@ -109,7 +109,7 @@ La expresión dentro de `${...}` se evalúa y el resultado pasa a formar parte d
 Toma en cuenta que esto sólo se puede hacer con los backticks. ¡Las otras comillas no tienen esta capacidad de incrustación!
 
 ```js
-alert("el resultado es ${1 + 2}"); // el resultado es ${1 + 2} (las comillas dobles no hacen nada)
+alert('el resultado es ${1 + 2}'); // el resultado es ${1 + 2} (las comillas dobles no hacen nada)
 ```
 
 ## Boolean (tipo lógico)
@@ -176,15 +176,13 @@ alert(age); // "undefined"
 
 …Pero no recomendamos hacer eso. Normalmente, usamos `null` para asignar un valor “vacío” o “desconocido” a una variable, mientras `undefined` es un valor inicial reservado para cosas que no han sido asignadas.
 
-## Object y Symbol
+## Object
 
 El tipo `object` (objeto) es especial.
 
 Todos los demás tipos se llaman “primitivos” porque sus valores pueden contener una sola cosa (ya sea una cadena, un número, o lo que sea). Por el contrario, los objetos se utilizan para almacenar colecciones de datos y entidades más complejas.
 
-Siendo así de importantes, los objetos merecen un trato especial. Nos ocuparemos de ellos más adelante en el capítulo [Objetos](/guide/poo) después de aprender más sobre los primitivos.
-
-El tipo `symbol` (símbolo) se utiliza para crear identificadores únicos para los objetos. Tenemos que mencionarlo aquí para una mayor integridad, pero es mejor estudiar este tipo después de los objetos.
+Siendo así de importantes, los objetos merecen un trato especial. Nos ocuparemos de ellos más adelante en el capítulo [Objetos](../poo/intro.md) después de aprender más sobre los primitivos.
 
 ## El operador `typeof`
 
@@ -201,9 +199,9 @@ typeof 10n; // "bigint"
 
 typeof true; // "boolean"
 
-typeof "foo"; // "string"
+typeof 'foo'; // "string"
 
-typeof Symbol("id"); // "symbol"
+typeof Symbol('id'); // "symbol"
 
 typeof Math; // "object"  (1)
 
