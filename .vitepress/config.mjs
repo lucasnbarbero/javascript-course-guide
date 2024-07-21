@@ -87,6 +87,7 @@ export default defineConfig({
           { text: 'Condicionales', link: '/exercises/ifelse' },
           { text: 'Bucles', link: '/exercises/loops' },
           { text: 'Arrays', link: '/exercises/arrays' },
+          { text: 'Objetos', link: '/exercises/objects' },
         ],
       },
     ],
