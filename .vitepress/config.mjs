@@ -89,6 +89,7 @@ export default defineConfig({
           { text: 'Arrays', link: '/exercises/arrays' },
           { text: 'Objetos', link: '/exercises/objects' },
           { text: 'Integrador 1', link: '/exercises/integrator-1' },
+          { text: 'POO', link: '/exercises/poo' },
         ],
       },
     ],
