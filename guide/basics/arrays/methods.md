@@ -157,3 +157,7 @@ let indiceDeFrutaConO = todasLasFrutas.findIndex(function (fruta) {
 });
 console.log(indiceDeFrutaConO); // 2
 ```
+
+## Ejercicios
+
+Para poner en práctica lo aprendido, resolvamos los siguientes [ejercicios](/exercises/arrays.md)
