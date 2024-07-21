@@ -141,3 +141,7 @@ for (let i = 0; i < 10; i++) {
 ```
 
 Para los valores pares de i, la directiva continue deja de ejecutar el cuerpo y pasa el control a la siguiente iteración de for (con el siguiente número). Así que el alert solo es llamado para valores impares.
+
+## Ejercicios
+
+Para poner en práctica lo aprendido, resolvamos los siguientes [ejercicios](/exercises/loops.md)
