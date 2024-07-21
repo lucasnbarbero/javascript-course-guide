@@ -188,3 +188,7 @@ alert('¡Exacto!');
 alert('Muy grande');
 alert('Desconozco estos valores');
 ```
+
+## Ejercicios
+
+Para poner en práctica lo aprendido, resolvamos los siguientes [ejercicios](/exercises/ifelse.md)

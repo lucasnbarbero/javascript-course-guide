@@ -81,6 +81,7 @@ export default defineConfig({
         ],
       },
       { text: 'Expresiones regulares', link: '/guide/data/regular-expressions' },
+      { text: 'Ejercicios', items: [{ text: 'If y else', link: '/exercises/ifelse' }] },
     ],
 
     socialLinks: [
