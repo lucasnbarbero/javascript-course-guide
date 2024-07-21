@@ -50,7 +50,7 @@ alert('no es un número' / 2); // NaN, tal división es errónea
 
 En JavaScript, el tipo “number” no puede representar de forma segura valores enteros mayores que `(2^53 - 1)` (eso es `9007199254740991`), o menor que `-(2^53-1)` para negativos.
 
-Para ser realmente precisos, el tipo de dato “number” puede almacenar enteros muy grandes (hasta `1.7976931348623157 \* 10^308`), pero fuera del rango de enteros seguros `±(253-1)` habrá un error de precisión, porque no todos los dígitos caben en el almacén fijo de 64-bit. Así que es posible que se almacene un valor “aproximado”.
+Para ser realmente precisos, el tipo de dato “number” puede almacenar enteros muy grandes (hasta `1.7976931348623157 * 10^308`), pero fuera del rango de enteros seguros `±(2^53-1)` habrá un error de precisión, porque no todos los dígitos caben en el almacén fijo de 64-bit. Así que es posible que se almacene un valor “aproximado”.
 
 Por ejemplo, estos dos números (justo por encima del rango seguro) son iguales:
 

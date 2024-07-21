@@ -2,7 +2,7 @@
 
 _JavaScript_ fue creado para "_dar vida a las páginas web_".
 
-Los programas en este lenguaje se llaman **_scripts_**. Se pueden escribir directamente en el HTML de una página we y ejecutarse automáticamente a medida que se carga la página.
+Los programas en este lenguaje se llaman **_scripts_**. Se pueden escribir directamente en el HTML de una página web y ejecutarse automáticamente a medida que se carga la página.
 
 Los scripts se proporcionan y ejecutan como texto plano. No necesitan preparación especial o compilación para correr.
 
@@ -18,7 +18,7 @@ Diferentes motores tienen diferentes “nombres en clave”. Por ejemplo:
 
 Es bueno recordar estos términos porque son usados en artículos para desarrolladores en internet. También los usaremos. Por ejemplo, si “la característica X es soportada por V8”, entonces probablemente funciona en Chrome, Opera y Edge.
 
-## ¿Qúe puede hacer JavaScript en el navegador?
+## ¿Qué puede hacer JavaScript en el navegador?
 
 El JavaScript moderno es un lenguaje de programación **seguro**. No proporciona acceso de bajo nivel a la memoria ni a la CPU; ya que se creó inicialmente para los navegadores, los cuales no lo requieren.
 

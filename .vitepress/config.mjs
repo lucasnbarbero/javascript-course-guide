@@ -56,6 +56,16 @@ export default defineConfig({
         ],
       },
       {
+        text: 'POO (Programación orientada a objetos)',
+        items: [
+          { text: 'Introducción', link: '/guide/poo/intro' },
+          { text: 'Clases', link: '/guide/poo/class' },
+          { text: 'Propiedades de clases', link: '/guide/poo/class-properties' },
+          { text: 'Métodos de clases', link: '/guide/poo/class-methods' },
+          { text: 'Herencia', link: '/guide/poo/inheritance' },
+        ],
+      },
+      {
         text: 'Manejo de datos y DOM',
         items: [
           { text: 'Strings', link: '/guide/data/strings' },
@@ -73,7 +83,9 @@ export default defineConfig({
       // { text: 'Introducción a AJAX', link: '/guide/ajax' },
     ],
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }],
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/lucasnbarbero/javascript-course-guide' },
+    ],
 
     footer: {
       message: 'Hecho por Lucas Barbero',

@@ -32,7 +32,7 @@ alert(message); // muestra el contenido de la variable
 Para ser concisos, podemos combinar la declaración de la variable y su asignación en una sola línea:
 
 ```js
-let message = "Hola!"; // define la variable y asigna un valor
+let message = 'Hola!'; // define la variable y asigna un valor
 
 alert(message); // Hola!
 ```
@@ -61,7 +61,7 @@ Los siguientes nombres son válidos:
 let $ = 1; // Declara una variable con el nombre "$"
 let _ = 2; // y ahora una variable con el nombre "_"
 
-alert($ + \_); // 3
+alert($ + _); // 3
 ```
 
 Ejemplos de nombres incorrectos:
@@ -77,15 +77,15 @@ let my-name; // los guiones '-' no son permitidos en nombres
 Para declarar una variable constante (inmutable) use `const` en vez de `let`:
 
 ```js
-const myBirthday = "18.04.1982";
+const myBirthday = '18.04.1982';
 ```
 
 Las variables declaradas utilizando `const` se llaman “constantes”. No pueden ser alteradas. Al intentarlo causaría un error:
 
 ```js
-const myBirthday = "18.04.1982";
+const myBirthday = '18.04.1982';
 
-myBirthday = "01.01.2001"; // ¡error, no se puede reasignar la constante!
+myBirthday = '01.01.2001'; // ¡error, no se puede reasignar la constante!
 ```
 
 Cuando un programador está seguro de que una variable nunca cambiará, puede declarar la variable con `const` para garantizar y comunicar claramente este hecho a todos.
@@ -99,10 +99,10 @@ Tales constantes se nombran utilizando letras mayúsculas y guiones bajos.
 Por ejemplo, creemos constantes para los colores en el formato “web” (hexadecimal):
 
 ```js
-const COLOR_RED = "#F00";
-const COLOR_GREEN = "#0F0";
-const COLOR_BLUE = "#00F";
-const COLOR_ORANGE = "#FF7F00";
+const COLOR_RED = '#F00';
+const COLOR_GREEN = '#0F0';
+const COLOR_BLUE = '#00F';
+const COLOR_ORANGE = '#FF7F00';
 
 // ...cuando debemos elegir un color
 let color = COLOR_ORANGE;
