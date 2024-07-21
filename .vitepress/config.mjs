@@ -66,21 +66,21 @@ export default defineConfig({
         ],
       },
       {
-        text: 'Manejo de datos y DOM',
+        text: 'Manejo de datos',
         items: [
           { text: 'Strings', link: '/guide/data/strings' },
           { text: 'Fecha y hora', link: '/guide/data/date' },
         ],
       },
-      // { text: 'Manejo de Cadenas de Texto', link: '/guide/cadenas' },
-      // { text: 'Trabajando con Fechas y Horas', link: '/guide/fechas' },
-      // { text: 'Programación Orientada a Objetos', link: '/guide/poo' },
-      // { text: 'Eventos', link: '/guide/eventos' },
-      // { text: 'Objetos del Navegador', link: '/guide/navegador' },
-      // { text: 'Formularios y Controles HTML', link: '/guide/formularios' },
-      // { text: 'Cookies y Almacenamiento', link: '/guide/cookies' },
-      // { text: 'Expresiones Regulares', link: '/guide/expresiones' },
-      // { text: 'Introducción a AJAX', link: '/guide/ajax' },
+      {
+        text: 'DOM',
+        items: [
+          { text: 'Introducción', link: '/guide/dom/intro' },
+          { text: 'Eventos del DOM', link: '/guide/dom/events' },
+          { text: 'Objetos del navegador', link: '/guide/dom/browser-objects' },
+        ],
+      },
+      { text: 'Expresiones regulares', link: '/guide/data/regular-expressions' },
     ],
 
     socialLinks: [
