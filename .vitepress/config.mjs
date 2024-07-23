@@ -40,6 +40,14 @@ export default defineConfig({
             ],
           },
           {
+            text: 'Funciones',
+            items: [
+              { text: 'Declaración y ejecución', link: '/guide/basics/functions/basics' },
+              { text: 'Expresiones de función', link: '/guide/basics/functions/expression' },
+              { text: 'Arrow functions', link: '/guide/basics/functions/arrows' },
+            ],
+          },
+          {
             text: 'Arrays',
             items: [
               { text: '¿Qué son?', link: '/guide/basics/arrays/intro' },
@@ -86,6 +94,7 @@ export default defineConfig({
         items: [
           { text: 'Condicionales', link: '/exercises/ifelse' },
           { text: 'Bucles', link: '/exercises/loops' },
+          { text: 'Funciones', link: '/exercises/functions' },
           { text: 'Arrays', link: '/exercises/arrays' },
           { text: 'Objetos', link: '/exercises/objects' },
           { text: 'Integrador 1', link: '/exercises/integrator-1' },

@@ -49,6 +49,26 @@ console.log(frutas); // ["Fresa", "Banana"]
 
 Cambia el contenido de un array eliminando, reemplazando o agregando elementos.
 
+### `sort`
+
+Ordena los elementos del array y devuelve el array ordenado.
+
+```js
+let frutasDesordenadas = ['Banana', 'Naranja', 'Manzana'];
+frutasDesordenadas.sort();
+console.log(frutasDesordenadas); // ["Banana", "Manzana", "Naranja"]
+```
+
+### `reverse`
+
+Invierte el orden de los elementos del array.
+
+```js
+let frutasOrdenadas = ['Banana', 'Manzana', 'Naranja'];
+frutasOrdenadas.reverse();
+console.log(frutasOrdenadas); // ["Naranja", "Manzana", "Banana"]
+```
+
 ## Métodos de acceso
 
 Estos métodos no modifican el array, sino que crean una nueva versión del mismo o acceden a su contenido.
@@ -156,6 +176,28 @@ let indiceDeFrutaConO = todasLasFrutas.findIndex(function (fruta) {
   return fruta.includes('o');
 });
 console.log(indiceDeFrutaConO); // 2
+```
+
+### `some`
+
+Comprueba si al menos un elemento cumple con una condición
+
+```js
+let hayMayoresDeTres = todasLasFrutas.some(function (fruta) {
+  return fruta.length > 5;
+});
+console.log(hayMayoresDeTres); // true
+```
+
+### `every`
+
+Comprueba si todos los elementos en el array cumplen con una condición
+
+```js
+let todosMayoresDeCero = todasLasFrutas.every(function (fruta) {
+  return fruta.length > 0;
+});
+console.log(todosMayoresDeCero); // true
 ```
 
 ## Ejercicios
