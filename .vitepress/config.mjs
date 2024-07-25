@@ -78,17 +78,20 @@ export default defineConfig({
         items: [
           { text: 'Strings', link: '/guide/data/strings' },
           { text: 'Fecha y hora', link: '/guide/data/date' },
+          { text: 'Expresiones regulares', link: '/guide/data/regular-expressions' },
         ],
       },
       {
-        text: 'DOM',
+        text: 'Web',
         items: [
           { text: 'Introducción', link: '/guide/dom/intro' },
           { text: 'Eventos del DOM', link: '/guide/dom/events' },
           { text: 'Objetos del navegador', link: '/guide/dom/browser-objects' },
+          { text: 'Formularios', link: '/guide/dom/forms' },
+          { text: 'Cookies', link: '/guide/dom/cookies' },
+          { text: 'AJAX', link: '/guide/dom/ajax' },
         ],
       },
-      { text: 'Expresiones regulares', link: '/guide/data/regular-expressions' },
       {
         text: 'Ejercicios',
         items: [
@@ -98,7 +101,7 @@ export default defineConfig({
           { text: 'Arrays', link: '/exercises/arrays' },
           { text: 'Objetos', link: '/exercises/objects' },
           { text: 'Integrador 1', link: '/exercises/integrator-1' },
-          { text: 'POO', link: '/exercises/poo' },
+          { text: 'Final', link: '/exercises/final' },
         ],
       },
     ],

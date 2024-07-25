@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Consulta de Pokémon</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+      }
+      #pokemon-form {
+        margin-bottom: 20px;
+      }
+      #pokemon-info {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Consulta de Pokémon</h1>
+    <form id="pokemon-form">
+      <input
+        type="text"
+        id="pokemon-input"
+        placeholder="Ingresa nombre o ID del Pokémon"
+        required
+      />
+      <button type="submit">Buscar</button>
+    </form>
+    <div id="pokemon-info"></div>
+
+    <script>
+      // app.js
+      document.getElementById('pokemon-form').addEventListener('submit', async (event) => {
+        event.preventDefault();
+
+        const pokemonInput = document.getElementById('pokemon-input').value.toLowerCase();
+        const pokemonInfo = document.getElementById('pokemon-info');
+
+        try {
+          const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonInput}`);
+          if (!response.ok) {
+            throw new Error('Pokémon no encontrado');
+          }
+          const data = await response.json();
+
+          pokemonInfo.innerHTML = `
+      <h2>${data.name.toUpperCase()}</h2>
+      <img src="${data.sprites.front_default}" alt="${data.name}">
+      <p><strong>Tipos:</strong> ${data.types.map((type) => type.type.name).join(', ')}</p>
+      <p><strong>Habilidades:</strong> ${data.abilities
+        .map((ability) => ability.ability.name)
+        .join(', ')}</p>
+      <p><strong>Estadísticas:</strong></p>
+      <ul>
+        ${data.stats.map((stat) => `<li>${stat.stat.name}: ${stat.base_stat}</li>`).join('')}
+      </ul>
+    `;
+        } catch (error) {
+          pokemonInfo.innerHTML = `<p>${error.message}</p>`;
+        }
+      });
+    </script>
+  </body>
+</html>
