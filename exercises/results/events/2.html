@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cambio de Texto</title>
+</head>
+<body>
+  <button id="change-text">Cambiar texto</button>
+  <p id="text">Texto original</p>
+  <script>
+    function changeText() {
+      document.querySelector("#text").textContent = "Texto cambiado";
+    }
+
+    document.querySelector("#change-text").addEventListener("click", changeText);
+  </script>
+</body>
+</html>

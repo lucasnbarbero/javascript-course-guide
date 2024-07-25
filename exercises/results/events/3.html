@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Añadir y Eliminar Clase</title>
+    <style>
+      .highlight {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="toggle-class">Alternar clase</button>
+    <div id="box">Caja</div>
+    <script>
+      const button = document.querySelector('#toggle-class');
+      const box = document.querySelector('#box');
+
+      button.addEventListener('click', () => {
+        box.classList.toggle('highlight');
+      });
+    </script>
+  </body>
+</html>

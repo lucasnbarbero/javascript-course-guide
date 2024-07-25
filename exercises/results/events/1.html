@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contador de Clics</title>
+</head>
+<body>
+  <button id="click-me">Haz clic aquí</button>
+  <div id="click-count">Número de clics: 0</div>
+  <script>
+    let count = 0;
+    const button = document.querySelector("#click-me");
+    const display = document.querySelector("#click-count");
+
+    button.addEventListener("click", () => {
+      count++;
+      display.textContent = `Número de clics: ${count}`;
+    });
+  </script>
+</body>
+</html>
