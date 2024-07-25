@@ -14,6 +14,10 @@ En este ejercicio, vas a implementar una funcionalidad para consultar la informa
 3. **Completa la funcionalidad en el script JavaScript:**
 
    - El script debe manejar el evento de envío del formulario (`submit`) para realizar una solicitud a la API.
+   - Debe utilizar el siguiente endpoint para realizar la solicitud a la PokeAPI:
+     ```
+     https://pokeapi.co/api/v2/pokemon/${pokemonInput}
+     ```
    - Debe mostrar la información del Pokémon, incluyendo:
      - **Nombre del Pokémon**
      - **Imagen del Pokémon**
@@ -26,7 +30,7 @@ En este ejercicio, vas a implementar una funcionalidad para consultar la informa
 
 ## Código Proporcionado
 
-Aquí tienes el archivo HTML y el código JavaScript inicial:
+Aquí tienes el archivo HTML inicial:
 
 ```html
 <!DOCTYPE html>
@@ -65,10 +69,3 @@ Aquí tienes el archivo HTML y el código JavaScript inicial:
     <div id="pokemon-info"></div>
   </body>
 </html>
-```
-
-## Requisitos
-
-- La búsqueda debe realizarse de manera asíncrona utilizando `fetch`.
-- La información debe mostrarse en un formato claro y bien estructurado.
-- Se debe manejar correctamente cualquier error de la solicitud o de entrada de datos.
